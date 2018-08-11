@@ -4,17 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="src/fonts/style.css">
-  <link rel="stylesheet" href="src/css/index.css">
-  <!-- <link rel="stylesheet" href="static\bootstrap\dist\css\bootstrap.min.css"> -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="static\bootstrap\dist\css\bootstrap.min.css">
+  <link rel="stylesheet" href="static\css\index.css">
   <title>Document</title>
 </head>
 <body>
   <nav class="navbar navbar-ligth bg-light">
     <a class="navbar-brand" href="#">
-      <img src="img/logo-citi.png" width="50" height="30" alt="CitiBanamex">
+      <img src="\img\logo-citi.png" width="50" height="30" alt="CitiBanamex">
     </a>
     <a href="#" class="company">
       <p>BAPEC</p>
@@ -24,23 +21,21 @@
     <main class="container-fluid">
         <section class="row" >
           <article class="col-12 text-center">
-            <form action="" class="">
-              <br>
-              <p> <span class="icon-account_circle"></span> User</p>
-              <input type="text" class="m-1 inputs"><br>
-              <p> <span class="icon-vpn_key"></span> Password</p>
-              <input type="password" class="m-1 inputs"><br> <br>
-              <input type="button" class="btn btn-primary" value="Iniciar">
+            <form action="" id="myform" class="">
+              <p><span class="icon-account_circle"></span>User</p>
+              <input type="text" name="user" class="m-1 inputs"><br>
+              <p><span class="icon-vpn_key"></span>Password</p>
+              <input type="password" name="password" class="m-1 inputs"><br> <br>
+              <input type="submit" class="btn btn-primary" onclick="location.href='static/views/view.html'" value="Iniciar">
             </form>
           </article>
         </section>
       </main>
-      <br>
-      <footer class="col">
-        <p>Derechos reservados</footer>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <script src="js/main.js"></script>
+      <footer class="text-center">
+        <p>Derechos reservados</p>
+      </footer>
+      <script src="static\jquery\dist\jquery.min.js"></script>
+      <script src="static\js\jquery.validate.js"></script>
+      <script src="static\js\validate.js"></script>
 </body>
 </html>
