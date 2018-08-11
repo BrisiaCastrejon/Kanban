@@ -1,3 +1,6 @@
+body {
+  background-color: #f1f1f1 !important;
+}
 .company {
   text-align: left;
 }
@@ -5,8 +8,9 @@
   background: #004581 !important;
 }
 nav {
-  background: #004581; 
+  background-color: #004581 !important; 
+  color: #f1f1f1;
 }
-footer {
+footer{
   text-align: center;
 }
