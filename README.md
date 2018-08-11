@@ -12,7 +12,9 @@ involucrados en el proyecto.
 * Crear una plataforma que le permita a nuestra usuaria compartir su
   proceso de trabajo con su equipo. 
 * Visibilizar el diseño de experiencia de usuario dentro de Citibanamex.
-* 
+
+## Persona 
+![Persona UX](img/perux.png)
 
 ## Emphaty map
 
