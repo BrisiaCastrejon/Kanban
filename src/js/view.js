@@ -1,3 +1,4 @@
+let commit;
 let containerOne = document.getElementsByClassName('row');
 let containerTwo = document.querySelector('.container');
 containerTwo.addEventListener('dragover', listMoveContainer, false );
