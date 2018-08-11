@@ -2,9 +2,22 @@
   "name": "kanban",
   "version": "0.1.0",
   "description": "kandan digital",
-  "main": "\u001b[D\u001bhtml\u001b[)",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "test-browser": "opener ./test/index.html",
+    "test-node": "nyc mocha ./test/headless.js",
+    "test": "npm run test-node && npm run test-browser"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "htmlhint": "^0.9.13",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1",
+    "opener": "^1.4.3"
   },
   "repository": {
     "type": "git",
