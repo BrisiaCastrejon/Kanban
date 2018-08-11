@@ -5,9 +5,7 @@ containerTwo.addEventListener('dragleave', listMoveContainerEnd, false);
 containerOne.addEventListener('dragstart', listMoveStar, false);
 containerOne.addEventListener('dragend', listMoveEnd, false);
 const listMoveContainer = (event) => {
-event.preventDefault();
-containerTwo.classList.add('over');
-return false
+
 }
 const listMoveContainerEnd = (event) => {
 
