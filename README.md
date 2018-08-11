@@ -1,6 +1,9 @@
 # Kanban
 
 ##Preambulo
+La metodología agile es hoy en día es una herramienta de mucha ayuda para el  desarrollo y la creación de software que basa su desarrollo en un ciclo iterativo , en el que las necesidades y soluciones evolucionan a través de la colaboración entre los diferentes equipos involucrados en el proyecto.
+
+## Objetivos
 
 
 ##Emphaty map
