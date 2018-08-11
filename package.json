@@ -1,0 +1,24 @@
+{
+  "name": "kanban",
+  "version": "0.1.0",
+  "description": "kandan digital",
+  "main": "\u001b[D\u001bhtml\u001b[)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrisiaCastrejon/Kanban.git"
+  },
+  "keywords": [
+    "kanban",
+    "javascript",
+    "html"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrisiaCastrejon/Kanban/issues"
+  },
+  "homepage": "https://github.com/BrisiaCastrejon/Kanban#readme"
+}
