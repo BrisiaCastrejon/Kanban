@@ -1,20 +1,16 @@
-"use strict";
+const express         = require('express'); //Framework Express
 
-var express = require("express");
-var app = express();
-var http = require("http").Server(app);
-var io = require("socket.io")(http);
+const app = express();
 
-app.use(express.static(__dirname + "/dist/"));
+app.use('/static', express.static(__dirname+'/node_modules'));
+app.use('/static', express.static(__dirname+'/src'));
 
-io.on("connection", function (socket) {
-	console.log("Usuario conectado");
-
-	socket.on("mensaje", function () {
-
-	});
+app.get('/',(req,res) =>{
+	res.sendFile(__dirname +'index.html');
 });
 
-app.listen(3000, function () {
-	console.log("Servidor iniciado en http://localhost:3000");
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log('Server running on port '+port+'!');
 });
