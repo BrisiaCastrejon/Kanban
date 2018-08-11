@@ -1,3 +1,12 @@
+.company {
+  text-align: left;
+}
+.btn .btn-primary {
+  background: #004581 !important;
+}
+nav {
+  background: #004581; 
+}
 footer {
   text-align: center;
 }

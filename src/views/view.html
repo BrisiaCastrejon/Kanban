@@ -9,30 +9,55 @@
   <title>Document</title>
 </head>
 <body>
+    <nav class="navbar navbar-ligth bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="../src/img/logo-citi.png" width="50" height="30" alt="CitiBanamex">
+        </a>
+        <a href="#" class="company">
+          <p>BAPEC</p>
+        </a>    
+      </nav>
+  <section>
+    <input type="text" placeholder="Titulo"> <br>
+    <input type="text" placeholder="Descripcion"> <br>
+    <button>Agregar lista</button>
+  </section>
 
-    <section class="container">
+    <section class="container-fuid">
+        <section class="row">
+          <ul>
+            <li class="container">BackLog</li>
+            <li class="container">ToDo</li>
+            <li class="container">Doing</li>
+            <li class="container">Feedback</li>
+            <li class="container">Done</li>
+          </ul>
+        </section>      
+  </section>
+  <section class="container" draggable="true">
       <div class="row">
         <section class="texto">
           <input type="text" placeholder="tarea">
           <br>
-          <button>Guardar</button>
-          <button>Editar</button>
+          <button>Agregar tarea</button>
           <button>Eliminar</button>
 
         </section>
       </div>
     </section>
 
-    <section class="container">
-        <div class="row">
-
-        </div>
+    <section class="container" draggable="true">
+        
       </section>
-      <section class="container">
-          <div class="row">
-
-          </div>
+      <section class="container" draggable="true">
+        
         </section>
+        <section class="container" draggable="true">
+        
+          </section>
+          <section class="container" draggable="true">
+        
+            </section>      
 
   <script src="../js/view.js"></script>
   <script src="static\bootstrap\dist\js\bootstrap.min.js" charset="utf-8"></script>
